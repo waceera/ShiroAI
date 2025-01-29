@@ -576,7 +576,7 @@ Hope you like it :)
         }).then(data => {
           $('.message.loading').remove();
           $('<div class="message new"><figure class="avatar"><img src="https://files.catbox.moe/st22xx.jpg" /></figure>' +
-            data.result + '</div>').appendTo($('.mCSB_container')).addClass('new');
+            data.message + '</div>').appendTo($('.mCSB_container')).addClass('new');
         }).catch(e => {
           console.log(e)
         })
